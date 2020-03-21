@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a5c49ca-74f1-41b9-a1df-a90349d3bd32" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameBackGround.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameBackGround.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Load.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Load.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadScene_Scripts/LoadSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadScene_Scripts/LoadSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadScene_Scripts/helpButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadScene_Scripts/helpButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainScene_Scripts/BackMain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainScene_Scripts/BackMain.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OtherControllers_Scripts/CursorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OtherControllers_Scripts/CursorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game work.sln" beforeDir="false" afterPath="$PROJECT_DIR$/game work.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadScene_Scripts/LoadSystem.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+            <state relative-caret-position="1767">
+              <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
               <folding>
                 <marker date="1584783201831" expanded="false" signature="6:220" ph="..." />
                 <marker date="1584783201831" expanded="true" signature="261:5655" ph="{...}" />
@@ -56,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MainScene_Scripts/BackMain.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
@@ -118,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="140" />
     <option name="y" value="35" />
     <option name="width" value="1750" />
@@ -131,12 +121,12 @@
     <panes>
       <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -192,11 +182,12 @@
       <workItem from="1584778992929" duration="1740000" />
       <workItem from="1584780812020" duration="1750000" />
       <workItem from="1584782853402" duration="441000" />
+      <workItem from="1584783703771" duration="350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7930000" />
+    <option name="totallyTimeSpent" value="8280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -208,9 +199,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -268,8 +259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadScene_Scripts/LoadSystem.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+        <state relative-caret-position="1767">
+          <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
           <folding>
             <marker date="1584783201831" expanded="false" signature="6:220" ph="..." />
             <marker date="1584783201831" expanded="true" signature="261:5655" ph="{...}" />
@@ -298,23 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MainScene_Scripts/BackMain.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <marker date="1584775384804" expanded="false" signature="6:113" ph="..." />
-            <marker date="1584775384804" expanded="true" signature="152:832" ph="{...}" />
-            <marker date="1584775384804" expanded="true" signature="241:293" ph="{...}" />
-            <marker date="1584775384804" expanded="true" signature="325:379" ph="{...}" />
-            <marker date="1584775384804" expanded="true" signature="419:481" ph="{...}" />
-            <marker date="1584775384804" expanded="true" signature="509:628" ph="{...}" />
-            <marker date="1584775384804" expanded="true" signature="662:736" ph="{...}" />
-            <marker date="1584775384804" expanded="true" signature="770:830" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/OtherControllers_Scripts/PlayerPrefsConst.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -322,6 +296,22 @@
           <folding>
             <marker date="1584780154749" expanded="false" signature="6:78" ph="..." />
             <marker date="1584780154749" expanded="true" signature="116:357" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MainScene_Scripts/BackMain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <marker date="1584775384804" expanded="false" signature="6:113" ph="..." />
+            <marker date="1584775384804" expanded="true" signature="241:293" ph="{...}" />
+            <marker date="1584775384804" expanded="true" signature="325:379" ph="{...}" />
+            <marker date="1584775384804" expanded="true" signature="419:481" ph="{...}" />
+            <marker date="1584775384804" expanded="true" signature="509:628" ph="{...}" />
+            <marker date="1584775384804" expanded="true" signature="662:736" ph="{...}" />
+            <marker date="1584775384804" expanded="true" signature="770:830" ph="{...}" />
           </folding>
         </state>
       </provider>
