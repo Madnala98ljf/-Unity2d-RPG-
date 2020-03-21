@@ -11,6 +11,12 @@ public static class PlayerPrefsConst
     public static string Username = "Username";
     public static string Passwoord = "Passwoord";
     public static string SafeCode = "SafeCode";
+    
+    //背景音量
+    public static string BackAsound = "BackAsound";
+    
+    //游戏音量
+    public static string GameAsound = "GameAsound";
 }
 
 

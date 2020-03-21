@@ -62,6 +62,7 @@ public class LoadSystem : MonoBehaviour
                 PlayerPrefs.SetString(PlayerPrefsConst.Username, text_Username.text);
                 PlayerPrefs.SetString(PlayerPrefsConst.Passwoord, text_Password.text);
                 PlayerPrefs.SetString(PlayerPrefsConst.SafeCode, text_Code.text);
+                PlayerPrefs.Save();
                 game.SetActive(true);
             }
             else

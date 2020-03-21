@@ -329,6 +329,7 @@
           <e p="OtherControllers_Scripts" t="Include">
             <e p="CursorController.cs" t="Include" />
             <e p="PlayerPrefsConst.cs" t="Include" />
+            <e p="Variable.cs" t="Include" />
           </e>
         </e>
       </e>

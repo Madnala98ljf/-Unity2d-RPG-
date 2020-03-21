@@ -22,7 +22,7 @@ public class GameWin : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
+    void FixedUpdate () {
         if (pause.isPause == false) {
             if (finash_1 == false) {
                 dir1 = point1.position - this.transform.position;
@@ -33,7 +33,7 @@ public class GameWin : MonoBehaviour {
                     float distance2 = Vector3.Distance (transform.position, point1.position);
                     float lerpT = 1.0f * Time.deltaTime / (1 * distance2);
                     transform.position = Vector3.Lerp (transform.position, point1.position, lerpT);
-                    this.transform.localScale += new Vector3 (0.00025f, 0.00025f, 0.00025f);
+                    this.transform.localScale += new Vector3 (0.0009f, 0.0009f, 0.0009f);
                 } else {
                     finash_1 = true;
                 }
@@ -51,12 +51,14 @@ public class GameWin : MonoBehaviour {
                     if (i == 0) {
                         game[0].SetActive (true);
                     }
-                    if (Input.GetMouseButtonDown (0) && i >= 0 && i < game.Length) {
+                    if (!Variable.IsPause && Input.GetMouseButtonDown (0) && i >= 0 && i < game.Length) {
                         game[i].SetActive (false);
                         i++;
                         if (i < game.Length) {
                             game[i].SetActive (true);
-                        } else {
+                        } else
+                        {
+                            Variable.CanPaues = false;
                             win.SetActive (true);
                         }
                     }

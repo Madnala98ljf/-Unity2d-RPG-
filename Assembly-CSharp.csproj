@@ -214,6 +214,7 @@
     <Compile Include="Assets\Scripts\MainScene_Scripts\RoleIntroduction.cs" />
     <Compile Include="Assets\Scripts\OtherControllers_Scripts\CursorController.cs" />
     <Compile Include="Assets\Scripts\OtherControllers_Scripts\PlayerPrefsConst.cs" />
+    <Compile Include="Assets\Scripts\OtherControllers_Scripts\Variable.cs" />
     <None Include="Assets\RPG and MMO UI 5\Readme.txt" />
     <None Include="Assets\RPG and MMO UI 5\Shaders\MaskedUIBlur.shader" />
     <None Include="Assets\RPG and MMO UI 5\Changelog.txt" />

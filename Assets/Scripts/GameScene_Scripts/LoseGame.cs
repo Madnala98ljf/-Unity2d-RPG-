@@ -8,7 +8,7 @@ public class LoseGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("Back_lose",5);
+        Invoke("Back_lose",3);
     }
 
     public void Back_lose(){

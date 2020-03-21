@@ -31,10 +31,6 @@ public class ForegroundStory : MonoBehaviour {
             if (isGo == true) {
                 myAnimator.SetBool ("isIdle", false);
                 if (dix.y < -0.8f) {
-                    //用Vector3.Lerp移动
-                    //float lerpValue = Mathf.Lerp(transform.position.x,point.position.x,(Time.time)* 0.0003f);
-                    //float lerpValue1 = Mathf.Lerp(transform.position.y,point.position.y,(Time.time)* 0.0003f);
-                    //transform.position = new Vector3(lerpValue,lerpValue1,-0.1f);
                     float distance2 = Vector3.Distance (transform.position, point.position);
                     float lerpT = 1.0f * Time.deltaTime / (1 * distance2);
                     transform.position = Vector3.Lerp (transform.position, point.position, lerpT);
@@ -44,11 +40,6 @@ public class ForegroundStory : MonoBehaviour {
                 }
             } else {
                 if (dir.y > 2.2f) {
-                    //用Vector3.Lerp移动
-                    //float lerpValue = Mathf.Lerp(transform.position.x,king.position.x,(Time.time)* 0.0003f);
-                    //float lerpValue1 = Mathf.Lerp(transform.position.y,king.position.y,(Time.time)* 0.0002f);
-                    //transform.position = new Vector3(lerpValue,lerpValue1,-0.1f);
-
                     float distance2 = Vector3.Distance (transform.position, king.position);
                     float lerpT = 1.0f * Time.deltaTime / (1 * distance2);
                     transform.position = Vector3.Lerp (transform.position, king.position, lerpT);
