@@ -204,6 +204,7 @@
     <Compile Include="Assets\Scripts\GameScene_Scripts\RageControler.cs" />
     <Compile Include="Assets\Scripts\GameScene_Scripts\SprintController.cs" />
     <Compile Include="Assets\Scripts\GameScene_Scripts\TestMyTrail.cs" />
+    <Compile Include="Assets\Scripts\GameScene_Scripts\WinGame.cs" />
     <Compile Include="Assets\Scripts\LoadScene_Scripts\Loadprogress.cs" />
     <Compile Include="Assets\Scripts\LoadScene_Scripts\LoadSystem.cs" />
     <Compile Include="Assets\Scripts\LoadScene_Scripts\PasswordButton.cs" />
@@ -214,6 +215,7 @@
     <Compile Include="Assets\Scripts\MainScene_Scripts\RoleIntroduction.cs" />
     <Compile Include="Assets\Scripts\OtherControllers_Scripts\CursorController.cs" />
     <Compile Include="Assets\Scripts\OtherControllers_Scripts\PlayerPrefsConst.cs" />
+    <Compile Include="Assets\Scripts\OtherControllers_Scripts\TestScroll.cs" />
     <Compile Include="Assets\Scripts\OtherControllers_Scripts\Variable.cs" />
     <None Include="Assets\RPG and MMO UI 5\Readme.txt" />
     <None Include="Assets\RPG and MMO UI 5\Shaders\MaskedUIBlur.shader" />
