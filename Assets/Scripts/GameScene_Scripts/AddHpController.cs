@@ -46,8 +46,7 @@ public class AddHpController : MonoBehaviour {
                 }
             }
 
-            // 此处我有多个按钮需要不同的CD，因此用了数组;
-            // CD_Trigger[0] 是一个bool值，用于判断是否开始冷却计时；
+            // CD_Trigger 是一个bool值，用于判断是否开始冷却计时；
             if (CD_Trigger) {
 
                 m_CD_Left -= Time.deltaTime; // m_CD_Left 冷却开始后，计算冷却剩余时间

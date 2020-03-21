@@ -18,7 +18,7 @@ public class Loadprogress : MonoBehaviour {
         for(int i=0;i<Gameasound.Length;i++){
             Gameasound[i].Stop();
         }
-        //开启一个协程，既不是进程也不是线程，目前了解不够深刻。
+        //开启一个协程，既不是进程也不是线程。
         //目前简单的理解是，协程会根据迭代器中yield return 来判断什么时候暂时退出当前函数
         //然后在下一帧或者下一段时间中继续执行yield return 后面的函数代码
         //使用协程是为了简化代码的复杂度，将代码分成不同段在不同的帧里面执行以及实现延时的效果
@@ -34,7 +34,7 @@ public class Loadprogress : MonoBehaviour {
     //关闭自动场景跳转后，LoadSceneAsync只能加载90%的场景资源，剩下的10%场景资源要在开启自动场景跳转后才加载
     IEnumerator LoadScence()
     {
-        aync = SceneManager.LoadSceneAsync(num);//name为要跳转的场景
+        aync = SceneManager.LoadSceneAsync(num);//num为要跳转的场景
         aync.allowSceneActivation = false;
         yield return aync;
     }
