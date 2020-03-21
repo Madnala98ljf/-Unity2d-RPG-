@@ -31,6 +31,6 @@ public class TestScroll : MonoBehaviour
         }
 
         //逐渐递增 ScrollRect 水平方向上的值
-        rect.verticalNormalizedPosition = rect.verticalNormalizedPosition - 0.05f * Time.deltaTime;
+        rect.verticalNormalizedPosition = rect.verticalNormalizedPosition - 0.04f * Time.deltaTime;
     }
 }
