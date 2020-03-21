@@ -27,9 +27,6 @@ public class GameWin : MonoBehaviour {
             if (finash_1 == false) {
                 dir1 = point1.position - this.transform.position;
                 if (dir1.y < -0.2f || dir1.x > 0.2f) {
-                    //float lerpValue = Mathf.Lerp(transform.position.x,point1.position.x,(Time.time)* 0.0001f);
-                    //float lerpValue1 = Mathf.Lerp(transform.position.y,point1.position.y,(Time.time)* 0.0001f);
-                    //transform.position = new Vector3(lerpValue,lerpValue1,-0.1f);
                     float distance2 = Vector3.Distance (transform.position, point1.position);
                     float lerpT = 1.0f * Time.deltaTime / (1 * distance2);
                     transform.position = Vector3.Lerp (transform.position, point1.position, lerpT);
@@ -40,9 +37,6 @@ public class GameWin : MonoBehaviour {
             } else {
                 dir2 = point2.position - this.transform.position;
                 if (dir2.y < -0.1f || dir2.x < -0.1f) {
-                    //float lerpValue = Mathf.Lerp(transform.position.x,point2.position.x,(Time.time-2.0f)* 0.0001f);
-                    //float lerpValue1 = Mathf.Lerp(transform.position.y,point2.position.y,(Time.time-2.0f)* 0.0001f);
-                    //transform.position = new Vector3(lerpValue,lerpValue1,-0.1f);
                     float distance2 = Vector3.Distance (transform.position, point2.position);
                     float lerpT = 1.0f * Time.deltaTime / (1 * distance2);
                     transform.position = Vector3.Lerp (transform.position, point2.position, lerpT);

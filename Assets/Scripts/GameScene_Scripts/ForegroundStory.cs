@@ -24,7 +24,7 @@ public class ForegroundStory : MonoBehaviour {
         pause = gameControllerObject1.GetComponent<PauseGame> ();
     }
 
-    void Update () {
+    void FixedUpdate () {
         if (pause.isPause == false) {
             dir = king.position - this.transform.position;
             Vector3 dix = point.position - this.transform.position;
@@ -34,7 +34,7 @@ public class ForegroundStory : MonoBehaviour {
                     float distance2 = Vector3.Distance (transform.position, point.position);
                     float lerpT = 1.0f * Time.deltaTime / (1 * distance2);
                     transform.position = Vector3.Lerp (transform.position, point.position, lerpT);
-                    this.transform.localScale += new Vector3 (0.0002f, 0.0002f, 0.0002f);
+                    this.transform.localScale += new Vector3 (0.0003f, 0.0003f, 0.0003f);
                 } else {
                     load.SetActive (true);
                 }
@@ -43,7 +43,7 @@ public class ForegroundStory : MonoBehaviour {
                     float distance2 = Vector3.Distance (transform.position, king.position);
                     float lerpT = 1.0f * Time.deltaTime / (1 * distance2);
                     transform.position = Vector3.Lerp (transform.position, king.position, lerpT);
-                    this.transform.localScale -= new Vector3 (0.0002f, 0.0002f, 0.0002f);
+                    this.transform.localScale -= new Vector3 (0.0003f, 0.0003f, 0.0003f);
 
                 } else {
                     myAnimator.SetBool ("isIdle", true);

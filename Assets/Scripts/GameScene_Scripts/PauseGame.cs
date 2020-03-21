@@ -74,12 +74,14 @@ public class PauseGame : MonoBehaviour
     {
         value_sum.text = Math.Floor(value * 100).ToString();
         Variable.BackAsound = value;
+        Con_sound();
     }
 
     void onSlider02(float value)
     {
         value_sum2.text = Math.Floor(value * 100).ToString();
         Variable.GameAsound = value;
+        Game_sound();
     }
 
     public void Con_sound()
