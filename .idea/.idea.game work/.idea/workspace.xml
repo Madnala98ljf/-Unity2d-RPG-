@@ -2,18 +2,427 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a5c49ca-74f1-41b9-a1df-a90349d3bd32" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.game work/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game work/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.game work/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game work/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fire.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameFirst.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameFirst.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameThird.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameThird.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameScene_Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameScene_Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OtherControllers_Scripts/Const.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OtherControllers_Scripts/Const.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OtherControllers_Scripts/InputKey.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OtherControllers_Scripts/InputKey.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OtherControllers_Scripts/InputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OtherControllers_Scripts/InputSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OtherControllers_Scripts/Variable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OtherControllers_Scripts/Variable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SkillCtr_Scripts/IceSkillController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SkillCtr_Scripts/IceSkillController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PocketRPG Trails/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PocketRPG Trails/Scripts/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PocketRPG Trails/Scripts/Effects/WeaponTrail.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PocketRPG Trails/Scripts/Effects/WeaponTrail.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PocketRPG Trails/Scripts/Entities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PocketRPG Trails/Scripts/Entities/BladeMaster.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PocketRPG Trails/Scripts/Entities/BladeMaster.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PocketRPG Trails/Scripts/Utility.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PocketRPG Trails/Scripts/Utility/AnimationController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PocketRPG Trails/Scripts/Utility/AnimationController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG Game Music/Fame Town.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG Game Music/Fame Town.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG Game Music/Magical Forest.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG Game Music/Magical Forest.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG Game Music/Something is near.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG Game Music/Something is near.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scenes/1 - Login.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scenes/1 - Login.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scenes/2 - Character Select (3D).unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scenes/2 - Character Select (3D).unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scenes/4 - Hero Select.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scenes/4 - Hero Select.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scenes/5 - Character Create.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scenes/5 - Character Create.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Attributes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Attributes/BitMaskAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Attributes/BitMaskAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Attributes/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Attributes/Editor/BitMaskEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Attributes/Editor/BitMaskEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Attributes/Editor/ResourcePathDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Attributes/Editor/ResourcePathDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Attributes/ResourcePathAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Attributes/ResourcePathAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Create.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Create/Demo_CharacterCreateMgr.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Create/Demo_CharacterCreateMgr.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Select.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Select/3D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Select/3D/Demo_CharacterSelectChar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Select/3D/Demo_CharacterSelectChar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Select/3D/Demo_CharacterSelectMgr.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Select/3D/Demo_CharacterSelectMgr.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Select/Demo_CharacterInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Select/Demo_CharacterInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Select/List.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Select/List/Demo_CharacterSelectList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Select/List/Demo_CharacterSelectList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Select/List/Demo_CharacterSelectList_Character.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Character Select/List/Demo_CharacterSelectList_Character.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Chat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Chat/Demo_AddChatMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Chat/Demo_AddChatMessage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Chat/Demo_AddChatTestMessages.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Chat/Demo_AddChatTestMessages.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Chat/Demo_Chat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Chat/Demo_Chat.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Demo_CastManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Demo_CastManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Demo_LookAtCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Demo_LookAtCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Demo_QuestTrackerCollapse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Demo_QuestTrackerCollapse.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Demo_Quit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Demo_Quit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Demo_XPTooltip.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Demo/Demo_XPTooltip.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Editor/Miscellaneous.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Editor/Miscellaneous/CaptureScreenshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Editor/Miscellaneous/CaptureScreenshot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Editor/Miscellaneous/ColorPropertyDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Editor/Miscellaneous/ColorPropertyDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Editor/Tools.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Editor/Tools/CreatePrefabs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Editor/Tools/CreatePrefabs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Editor/Tools/NavigationTools.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Editor/Tools/NavigationTools.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Miscellaneous.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Miscellaneous/BreakPrefabConnection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Miscellaneous/BreakPrefabConnection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Miscellaneous/CommonColorBuffer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Miscellaneous/CommonColorBuffer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_CastBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_CastBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_CompassTester.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_CompassTester.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_FadeInOut.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_FadeInOut.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_Fill.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_Fill.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_SelectAddOption.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_SelectAddOption.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UIBulletBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UIBulletBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UIEquipSlot_Assign.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UIEquipSlot_Assign.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UIItemSlot_Assign.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UIItemSlot_Assign.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UIItemSlot_AssignAll.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UIItemSlot_AssignAll.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UIProgressBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UIProgressBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UISlotBase_Assign.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UISlotBase_Assign.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UISpellSlot_Assign.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UISpellSlot_Assign.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UISpellSlot_AssignAll.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UISpellSlot_AssignAll.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UITalentSlot_Assign.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/Test Scripts/Test_UITalentSlot_Assign.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Audio/UIAudioSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Audio/UIAudioSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Audio/UIPlayAudio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Audio/UIPlayAudio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/Editor/UIBulletBarEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/Editor/UIBulletBarEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/Editor/UICastBarEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/Editor/UICastBarEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/Editor/UIProgressBarEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/Editor/UIProgressBarEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/Editor/UIStepBarEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/Editor/UIStepBarEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/IUIProgressBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/IUIProgressBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/UIBulletBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/UIBulletBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/UICastBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/UICastBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/UIProgressBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/UIProgressBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/UIStepBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Bars/UIStepBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Editor/UISliderExtendedEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Editor/UISliderExtendedEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Editor/UISwitchSelectEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Editor/UISwitchSelectEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Editor/UITabEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Editor/UITabEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/Editor/UISelectFieldEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/Editor/UISelectFieldEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/Editor/UISelectField_ListEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/Editor/UISelectField_ListEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/Editor/UISelectField_TransitionEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/Editor/UISelectField_TransitionEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/UISelectField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/UISelectField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/UISelectField_List.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/UISelectField_List.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/UISelectField_Option.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/UISelectField_Option.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/UISelectField_OptionOverlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/UISelectField_OptionOverlay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/UISelectField_Transition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/Select Field/UISelectField_Transition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/UISliderExtended.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/UISliderExtended.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/UISwitchSelect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/UISwitchSelect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/UITab.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/UITab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/UIToggle_OnOff.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Controls/UIToggle_OnOff.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Editor/UIItemDatabaseEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Editor/UIItemDatabaseEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Editor/UISpellDatabaseEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Editor/UISpellDatabaseEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Editor/UITalentDatabaseEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Editor/UITalentDatabaseEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Serializables.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Serializables/UIEquipmentType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Serializables/UIEquipmentType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Serializables/UIItemInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Serializables/UIItemInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Serializables/UIItemQuality.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Serializables/UIItemQuality.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Serializables/UISpellInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Serializables/UISpellInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Serializables/UISpellInfo_Flags.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Serializables/UISpellInfo_Flags.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Serializables/UITalentInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/Serializables/UITalentInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/UIItemDatabase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/UIItemDatabase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/UISpellDatabase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/UISpellDatabase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/UITalentDatabase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Databases/UITalentDatabase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Editor/UIAnimatorControllerGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Editor/UIAnimatorControllerGenerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Editor/UIDragObjectEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Editor/UIDragObjectEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Effects/Gradient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Effects/Gradient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Effects/LetterSpacing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Effects/LetterSpacing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Effects/NicerOutline.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Effects/NicerOutline.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Editor/UIEquipSlotEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Editor/UIEquipSlotEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Editor/UIItemSlotEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Editor/UIItemSlotEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Editor/UISlotBaseEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Editor/UISlotBaseEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Editor/UISpellSlotEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Editor/UISpellSlotEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Editor/UITalentSlotEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Editor/UITalentSlotEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Interfaces.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Interfaces/IUIItemSlot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Interfaces/IUIItemSlot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Interfaces/IUISlotHasCooldown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Interfaces/IUISlotHasCooldown.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Interfaces/IUISpellSlot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/Interfaces/IUISpellSlot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UIEquipReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UIEquipReceiver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UIEquipSlot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UIEquipSlot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UIItemSlot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UIItemSlot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UIItemSlot_Group.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UIItemSlot_Group.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UIItemSlot_SetColorFromQuality.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UIItemSlot_SetColorFromQuality.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UISlotBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UISlotBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UISlotCooldown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UISlotCooldown.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UISpellSlot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UISpellSlot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UISpellSlot_Group.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UISpellSlot_Group.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UITalentSlot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Icon Slot System/UITalentSlot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Loading Overlay.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Loading Overlay/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Loading Overlay/Editor/UILoadingOverlayManagerEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Loading Overlay/Editor/UILoadingOverlayManagerEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Loading Overlay/UILoadScene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Loading Overlay/UILoadScene.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Loading Overlay/UILoadingOverlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Loading Overlay/UILoadingOverlay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Loading Overlay/UILoadingOverlayManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Loading Overlay/UILoadingOverlayManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Mesh Modifiers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Mesh Modifiers/UIDrawVertices.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Mesh Modifiers/UIDrawVertices.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Mesh Modifiers/UIFlippable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Mesh Modifiers/UIFlippable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UICanvasAnchorToCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UICanvasAnchorToCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UICanvasAspectResize.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UICanvasAspectResize.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UIGlobeFillInverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UIGlobeFillInverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UIInputCaretOffset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UIInputCaretOffset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UIScrollRectExpander.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UIScrollRectExpander.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UISliderDisplayValue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UISliderDisplayValue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UIStatsAdd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UIStatsAdd.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UITextSetValue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UITextSetValue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UIToggleWindowAndTab.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UIToggleWindowAndTab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UIWorldCanvasScaleByCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Miscellaneous/UIWorldCanvasScaleByCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Modal Box.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Modal Box/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Modal Box/Editor/UIModalBoxManagerEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Modal Box/Editor/UIModalBoxManagerEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Modal Box/UIModalBox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Modal Box/UIModalBox.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Modal Box/UIModalBoxCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Modal Box/UIModalBoxCreate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Modal Box/UIModalBoxManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Modal Box/UIModalBoxManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Raycast Filters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Raycast Filters/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Raycast Filters/Editor/UICircularRaycastFilterEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Raycast Filters/Editor/UICircularRaycastFilterEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Raycast Filters/Editor/UIRectangularRaycastFilterEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Raycast Filters/Editor/UIRectangularRaycastFilterEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Raycast Filters/UICircularRaycastFilter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Raycast Filters/UICircularRaycastFilter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Raycast Filters/UIIgnoreRaycast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Raycast Filters/UIIgnoreRaycast.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Raycast Filters/UIMaskRaycastFilter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Raycast Filters/UIMaskRaycastFilter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Raycast Filters/UIRectangularRaycastFilter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Raycast Filters/UIRectangularRaycastFilter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Scene System.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Scene System/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Scene System/Editor/UISceneEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Scene System/Editor/UISceneEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Scene System/UIScene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Scene System/UIScene.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Scene System/UISceneManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Scene System/UISceneManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Scene System/UISceneOpen.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Scene System/UISceneOpen.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Scene System/UISceneRegistry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Scene System/UISceneRegistry.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Serializables.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Serializables/AnimationTriggersExtended.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Serializables/AnimationTriggersExtended.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Serializables/ColorBlockExtended.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Serializables/ColorBlockExtended.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Serializables/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Serializables/Editor/AnimationTriggersExtendedDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Serializables/Editor/AnimationTriggersExtendedDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Serializables/Editor/ColorBlockExtendedDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Serializables/Editor/ColorBlockExtendedDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Serializables/Editor/SpriteStateExtendedDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Serializables/Editor/SpriteStateExtendedDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Serializables/SpriteStateExtended.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Serializables/SpriteStateExtended.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/Editor/UITooltipEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/Editor/UITooltipEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/Editor/UITooltipLineContentDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/Editor/UITooltipLineContentDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/Editor/UITooltipManagerEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/Editor/UITooltipManagerEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/UITooltip.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/UITooltip.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/UITooltipLineContent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/UITooltipLineContent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/UITooltipLineStyle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/UITooltipLineStyle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/UITooltipLines.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/UITooltipLines.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/UITooltipManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/UITooltipManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/UITooltipShow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tooltips/UITooltipShow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Transitions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Transitions/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Transitions/Editor/UIEffectTransitionEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Transitions/Editor/UIEffectTransitionEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Transitions/Editor/UIHighlightTransitionEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Transitions/Editor/UIHighlightTransitionEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Transitions/Editor/UIPressTransitionEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Transitions/Editor/UIPressTransitionEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Transitions/UIEffectTransition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Transitions/UIEffectTransition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Transitions/UIHighlightTransition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Transitions/UIHighlightTransition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Transitions/UIPressTransition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Transitions/UIPressTransition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/ColorTween.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/ColorTween.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/FloatTween.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/FloatTween.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/ITweenValue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/ITweenValue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/TweenEasing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/TweenEasing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/TweenEasingHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/TweenEasingHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/TweenRunner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/TweenRunner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/Vector2Tween.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/Vector2Tween.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/Vector3Tween.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Tweening/Vector3Tween.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/UIAlwaysOnTop.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/UIAlwaysOnTop.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/UIDragObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/UIDragObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/UIInputEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/UIInputEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/UIPagination.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/UIPagination.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/UIUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/UIUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/Editor/UIBlackOverlayManagerEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/Editor/UIBlackOverlayManagerEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/Editor/UIWindowEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/Editor/UIWindowEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/UIBlackOverlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/UIBlackOverlay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/UIBlackOverlayManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/UIBlackOverlayManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/UICloseAndShowWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/UICloseAndShowWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/UIWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/UIWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/UIWindowID.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/UIWindowID.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/UIWindowManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG and MMO UI 5/Scripts/UI/Window/UIWindowManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game work.sln" beforeDir="false" afterPath="$PROJECT_DIR$/game work.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -331,7 +740,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="140" />
     <option name="y" value="35" />
     <option name="width" value="1750" />
@@ -415,7 +824,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29065000" />
+    <option name="totallyTimeSpent" value="29385000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,7 +836,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3016086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
