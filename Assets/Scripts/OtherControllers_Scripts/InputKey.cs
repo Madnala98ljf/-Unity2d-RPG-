@@ -14,6 +14,8 @@ public class InputKey
     
     public static bool TriggerSkill = false;
     
+    public static bool TriggerArrowSkill = false;
+    
     public static bool TriggerIceSkill = false;
     
     public static bool TriggerFireSkill = false;

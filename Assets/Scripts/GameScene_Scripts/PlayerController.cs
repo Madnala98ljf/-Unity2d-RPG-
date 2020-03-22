@@ -14,14 +14,20 @@ public class PlayerController : MonoBehaviour
 {
     private Animator myAnimator;
     private Rigidbody2D rb;
+    private EmenyController gameController;
+    private PauseGame pause;
+    private Transform emeny;
+    private float HorizontalDirection;
+    private float VerticalDirection;
+    private float skillFaceTo;
+    private bool isSkill = false;
+    
+    
     public Boundary boundary;
     public int hp; //生命值
     public Text hptext;
     public Image hpimage;
     public int speed; //移动速度
-    private EmenyController gameController;
-    private PauseGame pause;
-    private Transform emeny;
     public bool IsDead = false;
     public bool isWalk = false;
     public bool IsAttack = false;
@@ -29,16 +35,20 @@ public class PlayerController : MonoBehaviour
     public float hp_max;
     public string s;
     public bool IsDefense = false;
-    private float HorizontalDirection;
-    private float VerticalDirection;
     public GameObject IceBall;
-    private bool isSkill = false;
+    public GameObject FireBall;
+    public GameObject ArrowBall;
     private GameObject skill;
-    private float skillFaceTo;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+        Variable.IsArrowSkilling = false;
+        Variable.IsArrowSkillTrigger = false;
+        Variable.IsIceSkilling = false;
+        Variable.IsIceSkillTrigger = false;
+        Variable.IsFireSkilling = false;
+        Variable.IsFireSkillTrigger = false;
         myAnimator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         GameObject gameControllerObject = GameObject.FindWithTag("Emeny");
@@ -227,7 +237,20 @@ public class PlayerController : MonoBehaviour
             skillBall();
             return;
         }
-
+        if (InputKey.TriggerArrowSkill && !Variable.IsArrowSkilling)
+        {
+            Variable.IsArrowSkillTrigger = true;
+            Variable.IsArrowSkilling = true;
+            isSkill = true;
+            if(transform.rotation.y == 0)
+                skill = Instantiate(ArrowBall, transform.position + new Vector3(0.5f,-0.2f,0.0f),transform.rotation);
+            else
+                skill = Instantiate(ArrowBall, transform.position - new Vector3(0.5f,0.2f,0.0f),transform.rotation);
+            Variable.SkillHurt = Const.ArrowHurt;
+            skillFaceTo = transform.rotation.y;
+            return;
+        }
+        
         if (InputKey.TriggerIceSkill && !Variable.IsIceSkilling)
         {
             Variable.IsIceSkillTrigger = true;
@@ -237,13 +260,23 @@ public class PlayerController : MonoBehaviour
                 skill = Instantiate(IceBall, transform.position + new Vector3(0.5f,-0.2f,0.0f),transform.rotation);
             else
                 skill = Instantiate(IceBall, transform.position - new Vector3(0.5f,0.2f,0.0f),transform.rotation);
+            Variable.SkillHurt = Const.IceHurt;
             skillFaceTo = transform.rotation.y;
             return;
         }
         
         if (InputKey.TriggerFireSkill && !Variable.IsFireSkilling)
         {
-            
+            Variable.IsFireSkillTrigger = true;
+            Variable.IsFireSkilling = true;
+            isSkill = true;
+            if(transform.rotation.y == 0)
+                skill = Instantiate(FireBall, transform.position + new Vector3(0.5f,-0.2f,0.0f),transform.rotation);
+            else
+                skill = Instantiate(FireBall, transform.position - new Vector3(0.5f,0.2f,0.0f),transform.rotation);
+            skillFaceTo = transform.rotation.y;
+            Variable.SkillHurt = Const.FireHurt;
+            return;
         }
     }
 
@@ -262,6 +295,7 @@ public class PlayerController : MonoBehaviour
                 if (skill.transform.rotation.y == 0)
                 {
                     DestoryBall();
+                    gameController.hp -= Variable.SkillHurt;
                     return;
                 }
             }
@@ -270,6 +304,7 @@ public class PlayerController : MonoBehaviour
                 if (skill.transform.rotation.y == -1)
                 {
                     DestoryBall();
+                    gameController.hp -= Variable.SkillHurt;
                     return;
                 }
             }

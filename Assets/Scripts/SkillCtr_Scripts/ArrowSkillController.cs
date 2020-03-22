@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class IceSkillController : MonoBehaviour
+public class ArrowSkillController : MonoBehaviour
 {
     public float m_CD_0; // 冷却时间
     public float m_CD_Left;
@@ -12,6 +12,8 @@ public class IceSkillController : MonoBehaviour
     public bool Use_Trigger;
     public Image m_Masks;
     public Text m_Texts;
+
+    public string s;
     //public AudioSource audio;
 
     void Awake()
@@ -31,9 +33,9 @@ public class IceSkillController : MonoBehaviour
             if (!CD_Trigger)
             {
                 // 如果技能不再冷却中，则释放技能并开始冷却计时；如果技能在冷却，则跳过；
-                if (Variable.IsIceSkillTrigger)
+                if (Variable.IsArrowSkillTrigger)
                 {
-                    Variable.IsIceSkillTrigger = false;
+                    Variable.IsArrowSkillTrigger = false;
                     //audio.Play ();
                     CD_Trigger = true; // 赋值为True，下一个frame，开始冷却计时
                     Use_Trigger = true;
@@ -56,7 +58,7 @@ public class IceSkillController : MonoBehaviour
 
                 if (m_CD_Left < 0)
                 {
-                    Variable.IsIceSkilling = false;
+                    Variable.IsArrowSkilling = false;
                     // 如果剩余冷却时间为0，则停止冷却，并重新初始化相关变量。
                     CD_Trigger = false; // 下一个frame开始将不再执行if (CD_Trigger[0]){...}语句块的代码；
                     m_CD_Left = m_CD_0; // 剩余冷却时间重新赋值为初始值

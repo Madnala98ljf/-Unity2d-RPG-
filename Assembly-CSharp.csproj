@@ -216,7 +216,9 @@
     <Compile Include="Assets\Scripts\OtherControllers_Scripts\TestScroll.cs" />
     <Compile Include="Assets\Scripts\OtherControllers_Scripts\Variable.cs" />
     <Compile Include="Assets\Scripts\SkillCtr_Scripts\AddHpController.cs" />
+    <Compile Include="Assets\Scripts\SkillCtr_Scripts\ArrowSkillController.cs" />
     <Compile Include="Assets\Scripts\SkillCtr_Scripts\DefenseController.cs" />
+    <Compile Include="Assets\Scripts\SkillCtr_Scripts\FireSkillController.cs" />
     <Compile Include="Assets\Scripts\SkillCtr_Scripts\IceSkillController.cs" />
     <Compile Include="Assets\Scripts\SkillCtr_Scripts\RageControler.cs" />
     <Compile Include="Assets\Scripts\SkillCtr_Scripts\SprintController.cs" />

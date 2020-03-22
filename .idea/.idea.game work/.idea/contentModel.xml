@@ -333,7 +333,9 @@
           </e>
           <e p="SkillCtr_Scripts" t="Include">
             <e p="AddHpController.cs" t="Include" />
+            <e p="ArrowSkillController.cs" t="Include" />
             <e p="DefenseController.cs" t="Include" />
+            <e p="FireSkillController.cs" t="Include" />
             <e p="IceSkillController.cs" t="Include" />
             <e p="RageControler.cs" t="Include" />
             <e p="SprintController.cs" t="Include" />

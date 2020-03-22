@@ -19,8 +19,15 @@ public static class Variable
     //冰球
     public static bool IsIceSkilling = false;
     public static bool IsIceSkillTrigger = false;
-    
+
     //火球
     public static bool IsFireSkilling = false;
     public static bool IsFireSkillTrigger = false;
+    
+    //弓箭
+    public static bool IsArrowSkilling = false;
+    public static bool IsArrowSkillTrigger = false;
+    
+    //技能伤害
+    public static int SkillHurt;
 }

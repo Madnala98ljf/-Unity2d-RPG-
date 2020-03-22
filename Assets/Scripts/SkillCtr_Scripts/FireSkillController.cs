@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class IceSkillController : MonoBehaviour
+public class FireSkillController : MonoBehaviour
 {
     public float m_CD_0; // 冷却时间
     public float m_CD_Left;
     public float m_CD_Right;
     public bool CD_Trigger;
-    public bool Use_Trigger;
     public Image m_Masks;
     public Text m_Texts;
     //public AudioSource audio;
@@ -17,7 +16,6 @@ public class IceSkillController : MonoBehaviour
     void Awake()
     {
         CD_Trigger = false; // 初始化为false，在Update()中，跳过冷却计时代码；
-        Use_Trigger = false;
         m_CD_Left = m_CD_0; // 初始化为对应冷却时间
         m_CD_Right = m_CD_0 * 0.25f;
         m_Masks.enabled = false; // 禁用Mask，确保开始时，技能图标效果为可用；
@@ -31,12 +29,11 @@ public class IceSkillController : MonoBehaviour
             if (!CD_Trigger)
             {
                 // 如果技能不再冷却中，则释放技能并开始冷却计时；如果技能在冷却，则跳过；
-                if (Variable.IsIceSkillTrigger)
+                if (Variable.IsFireSkillTrigger)
                 {
-                    Variable.IsIceSkillTrigger = false;
+                    Variable.IsFireSkillTrigger = false;
                     //audio.Play ();
                     CD_Trigger = true; // 赋值为True，下一个frame，开始冷却计时
-                    Use_Trigger = true;
                     m_Masks.enabled = true; // 启用Mask（Image）
                     m_Masks.fillAmount = 1; // FillAmount设为1，确保效果显示正确
                     m_Texts.enabled = true; // 启用Text，显示冷却数字
@@ -56,18 +53,13 @@ public class IceSkillController : MonoBehaviour
 
                 if (m_CD_Left < 0)
                 {
-                    Variable.IsIceSkilling = false;
+                    Variable.IsFireSkilling = false;
                     // 如果剩余冷却时间为0，则停止冷却，并重新初始化相关变量。
                     CD_Trigger = false; // 下一个frame开始将不再执行if (CD_Trigger[0]){...}语句块的代码；
                     m_CD_Left = m_CD_0; // 剩余冷却时间重新赋值为初始值
                     m_CD_Right = m_CD_0 * 0.25f;
                     m_Masks.enabled = false; // Mask被禁用，不显示在图标上
                     m_Texts.enabled = false; // Text被禁用，不显示数值
-                }
-
-                if (m_CD_Right < 0 && Use_Trigger)
-                {
-                    Use_Trigger = false;
                 }
             }
         }

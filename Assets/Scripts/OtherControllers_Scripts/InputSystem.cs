@@ -18,6 +18,7 @@ public class InputSystem
         InputKey.TriggerDown = Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S);
 
         InputKey.TriggerSkill = Input.GetKey(KeyCode.J);
+        InputKey.TriggerArrowSkill = Input.GetKey(KeyCode.U);
         InputKey.TriggerIceSkill = Input.GetKey(KeyCode.K);
         InputKey.TriggerFireSkill = Input.GetKey(KeyCode.L);
     }
