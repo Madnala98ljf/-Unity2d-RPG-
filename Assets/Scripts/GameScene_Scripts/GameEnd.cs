@@ -36,7 +36,7 @@ public class GameEnd : MonoBehaviour
     void Update()
     {
         if(pause.isPause==false){
-            if(gameController_P.isDie==true){
+            if(gameController_P.IsDead==true){
                 if(t==0){
                     Invoke("lose",5);
                     t++;
@@ -53,7 +53,7 @@ public class GameEnd : MonoBehaviour
                 }
             }
 
-            if(gameController_E.isDie==true){
+            if(gameController_E.IsDead==true){
                 if(t==0){
                     if(level==0)
                         Invoke("win1",2);

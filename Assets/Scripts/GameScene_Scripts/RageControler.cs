@@ -40,7 +40,7 @@ public class RageControler : MonoBehaviour {
                     m_Masks.enabled = true; // 启用Mask（Image）
                     m_Masks.fillAmount = 1; // FillAmount设为1，确保效果显示正确
                     m_Texts.enabled = true; // 启用Text，显示冷却数字
-                    gameController.aggressivity += add_Aggressivity;
+                    gameController.Aggressivity += add_Aggressivity;
                 }
             }
 
@@ -65,7 +65,7 @@ public class RageControler : MonoBehaviour {
 
                 if (m_CD_Right < 0&&Use_Trigger==true) {
                     Use_Trigger=false;
-                    gameController.aggressivity -= add_Aggressivity;
+                    gameController.Aggressivity -= add_Aggressivity;
                 }
             }
         }

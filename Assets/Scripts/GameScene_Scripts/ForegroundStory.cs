@@ -5,23 +5,19 @@ using UnityEngine;
 public class ForegroundStory : MonoBehaviour {
     private int i = 0;
     private float dis;
-    private Transform king;
-    private Transform point;
+    public Transform king;
+    public Transform point;
     private Rigidbody2D rb;
     private Animator myAnimator;
     public GameObject[] game;
     public GameObject load;
     private bool isGo = false;
     private Vector3 dir;
-    private PauseGame pause;
+    public PauseGame pause;
 
     void Awake () {
-        king = GameObject.FindGameObjectWithTag ("king").transform;
-        point = GameObject.FindGameObjectWithTag ("Point").transform;
         rb = GetComponent<Rigidbody2D> ();
         myAnimator = GetComponent<Animator> ();
-        GameObject gameControllerObject1 = GameObject.FindWithTag ("Pause");
-        pause = gameControllerObject1.GetComponent<PauseGame> ();
     }
 
     void FixedUpdate () {

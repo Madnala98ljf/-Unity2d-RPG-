@@ -39,7 +39,7 @@ public class DefenseController : MonoBehaviour {
                     m_Masks.enabled = true; // 启用Mask（Image）
                     m_Masks.fillAmount = 1; // FillAmount设为1，确保效果显示正确
                     m_Texts.enabled = true; // 启用Text，显示冷却数字
-                    gameController.isDefense=true;
+                    gameController.IsDefense=true;
                 }
             }
 
@@ -64,7 +64,7 @@ public class DefenseController : MonoBehaviour {
 
                 if (m_CD_Right < 0 && Use_Trigger == true) {
                     Use_Trigger = false;
-                    gameController.isDefense=false;
+                    gameController.IsDefense=false;
                 }
             }
         }

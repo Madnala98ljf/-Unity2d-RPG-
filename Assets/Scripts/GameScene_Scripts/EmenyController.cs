@@ -15,8 +15,8 @@ public class EmenyController : MonoBehaviour {
     private PlayerController gameController;
     private PauseGame pause;
     public float speed;
-    public bool isDie = false;
-    public int aggressivity; //攻击力
+    public bool IsDead = false;
+    public int Aggressivity; //攻击力
     public float hp_max;
     public float hp_min;
     public string s;
@@ -41,9 +41,9 @@ public class EmenyController : MonoBehaviour {
     // Update is called once per frame
     void FixedUpdate () {
         if (pause.isPause == false) {
-            if (gameController.isDie == true)
+            if (gameController.IsDead == true)
                 emenyAnimator.SetBool ("isIdle", true);
-            if (isDie == false && gameController.isDie == false) {
+            if (IsDead == false && gameController.IsDead == false) {
                 if (hp > hp_min) {
                     hpimage.fillAmount = hp / hp_max;
                     hptext.text = hp.ToString () + s;
@@ -55,8 +55,8 @@ public class EmenyController : MonoBehaviour {
                         emenyAnimator.SetBool ("isAttack", false);
                     } else {
                         emenyAnimator.SetBool ("isAttack", true);
-                        if (gameController.isDefense == false)
-                            count -= aggressivity;
+                        if (gameController.IsDefense == false)
+                            count -= Aggressivity;
                         if (count == 0) {
                             gameController.hp -= count_del;
                             count = count_del;
@@ -78,7 +78,7 @@ public class EmenyController : MonoBehaviour {
                 } else {
                     hpimage.fillAmount = hp_min / hp_max;
                     hptext.text = hp_min.ToString () + s;
-                    isDie = true;
+                    IsDead = true;
                     if (hp_min == 0) {
                         emenyAnimator.SetBool ("isAttack", false);
                         emenyAnimator.SetTrigger ("Die");
