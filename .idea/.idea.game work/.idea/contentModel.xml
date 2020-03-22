@@ -299,9 +299,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="GameScene_Scripts" t="Include">
-            <e p="AddHpController.cs" t="Include" />
             <e p="BeginGame.cs" t="Include" />
-            <e p="DefenseController.cs" t="Include" />
             <e p="EmenyController.cs" t="Include" />
             <e p="ForegroundStory.cs" t="Include" />
             <e p="GameEnd.cs" t="Include" />
@@ -310,9 +308,6 @@
             <e p="LoseGame.cs" t="Include" />
             <e p="PauseGame.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
-            <e p="RageControler.cs" t="Include" />
-            <e p="SprintController.cs" t="Include" />
-            <e p="TestMyTrail.cs" t="Include" />
             <e p="WinGame.cs" t="Include" />
           </e>
           <e p="LoadScene_Scripts" t="Include">
@@ -335,6 +330,14 @@
             <e p="PlayerPrefsConst.cs" t="Include" />
             <e p="TestScroll.cs" t="Include" />
             <e p="Variable.cs" t="Include" />
+          </e>
+          <e p="SkillCtr_Scripts" t="Include">
+            <e p="AddHpController.cs" t="Include" />
+            <e p="DefenseController.cs" t="Include" />
+            <e p="IceSkillController.cs" t="Include" />
+            <e p="RageControler.cs" t="Include" />
+            <e p="SprintController.cs" t="Include" />
+            <e p="TestMyTrail.cs" t="Include" />
           </e>
         </e>
       </e>

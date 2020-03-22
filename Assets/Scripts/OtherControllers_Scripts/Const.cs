@@ -6,4 +6,5 @@ public class Const
 {
     //角色移动速度
     public const float MoveSpeed = 0.03f;
+    public const float SkillSpeed = 0.13f;
 }

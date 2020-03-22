@@ -190,9 +190,7 @@
     <Compile Include="Assets\RPG and MMO UI 5\Scripts\UI\Window\UIWindow.cs" />
     <Compile Include="Assets\RPG and MMO UI 5\Scripts\UI\Window\UIWindowID.cs" />
     <Compile Include="Assets\RPG and MMO UI 5\Scripts\UI\Window\UIWindowManager.cs" />
-    <Compile Include="Assets\Scripts\GameScene_Scripts\AddHpController.cs" />
     <Compile Include="Assets\Scripts\GameScene_Scripts\BeginGame.cs" />
-    <Compile Include="Assets\Scripts\GameScene_Scripts\DefenseController.cs" />
     <Compile Include="Assets\Scripts\GameScene_Scripts\EmenyController.cs" />
     <Compile Include="Assets\Scripts\GameScene_Scripts\ForegroundStory.cs" />
     <Compile Include="Assets\Scripts\GameScene_Scripts\GameEnd.cs" />
@@ -201,9 +199,6 @@
     <Compile Include="Assets\Scripts\GameScene_Scripts\LoseGame.cs" />
     <Compile Include="Assets\Scripts\GameScene_Scripts\PauseGame.cs" />
     <Compile Include="Assets\Scripts\GameScene_Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\GameScene_Scripts\RageControler.cs" />
-    <Compile Include="Assets\Scripts\GameScene_Scripts\SprintController.cs" />
-    <Compile Include="Assets\Scripts\GameScene_Scripts\TestMyTrail.cs" />
     <Compile Include="Assets\Scripts\GameScene_Scripts\WinGame.cs" />
     <Compile Include="Assets\Scripts\LoadScene_Scripts\Loadprogress.cs" />
     <Compile Include="Assets\Scripts\LoadScene_Scripts\LoadSystem.cs" />
@@ -220,6 +215,12 @@
     <Compile Include="Assets\Scripts\OtherControllers_Scripts\PlayerPrefsConst.cs" />
     <Compile Include="Assets\Scripts\OtherControllers_Scripts\TestScroll.cs" />
     <Compile Include="Assets\Scripts\OtherControllers_Scripts\Variable.cs" />
+    <Compile Include="Assets\Scripts\SkillCtr_Scripts\AddHpController.cs" />
+    <Compile Include="Assets\Scripts\SkillCtr_Scripts\DefenseController.cs" />
+    <Compile Include="Assets\Scripts\SkillCtr_Scripts\IceSkillController.cs" />
+    <Compile Include="Assets\Scripts\SkillCtr_Scripts\RageControler.cs" />
+    <Compile Include="Assets\Scripts\SkillCtr_Scripts\SprintController.cs" />
+    <Compile Include="Assets\Scripts\SkillCtr_Scripts\TestMyTrail.cs" />
     <None Include="Assets\RPG and MMO UI 5\Readme.txt" />
     <None Include="Assets\RPG and MMO UI 5\Shaders\MaskedUIBlur.shader" />
     <None Include="Assets\RPG and MMO UI 5\Changelog.txt" />

@@ -14,6 +14,10 @@ public class InputKey
     
     public static bool TriggerSkill = false;
     
+    public static bool TriggerIceSkill = false;
+    
+    public static bool TriggerFireSkill = false;
+    
     public static int HorizontalDirection
     {
         get

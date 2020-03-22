@@ -31,6 +31,10 @@ public class PlayerController : MonoBehaviour
     public bool IsDefense = false;
     private float HorizontalDirection;
     private float VerticalDirection;
+    public GameObject IceBall;
+    private bool isSkill = false;
+    private GameObject skill;
+    private float skillFaceTo;
 
     // Start is called before the first frame update
     void Start()
@@ -47,8 +51,12 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        //输入检测
         InputSystem.ProcessInput();
+        //角色控制
         RoleCtr();
+        //技能控制
+        SkillCtr();
     }
 
     public void RoleCtr()
@@ -210,8 +218,76 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void SkillCtr()
+    {
+        if(pause.isPause)
+            return;
+        if (isSkill)
+        {
+            skillBall();
+            return;
+        }
+
+        if (InputKey.TriggerIceSkill && !Variable.IsIceSkilling)
+        {
+            Variable.IsIceSkillTrigger = true;
+            Variable.IsIceSkilling = true;
+            isSkill = true;
+            if(transform.rotation.y == 0)
+                skill = Instantiate(IceBall, transform.position + new Vector3(0.5f,-0.2f,0.0f),transform.rotation);
+            else
+                skill = Instantiate(IceBall, transform.position - new Vector3(0.5f,0.2f,0.0f),transform.rotation);
+            skillFaceTo = transform.rotation.y;
+            return;
+        }
+        
+        if (InputKey.TriggerFireSkill && !Variable.IsFireSkilling)
+        {
+            
+        }
+    }
+
+    private void skillBall()
+    {
+        Vector3 move = new Vector3(Const.SkillSpeed, 0.0f, 0.0f);
+        if(skillFaceTo == 0)
+            skill.transform.position += move;
+        else
+            skill.transform.position -= move;
+        Vector3 dir = skill.transform.position - emeny.position;
+        if (dir.x < 1.0f && dir.x > -1.0f && dir.y < 0.8f && dir.y > -0.8f)
+        {
+            if (dir.x < 0)
+            {
+                if (skill.transform.rotation.y == 0)
+                {
+                    DestoryBall();
+                    return;
+                }
+            }
+            else
+            {
+                if (skill.transform.rotation.y == -1)
+                {
+                    DestoryBall();
+                    return;
+                }
+            }
+        }
+
+        if (skill.transform.position.x > boundary.xMax || skill.transform.position.x < boundary.xMin)
+            DestoryBall();
+    }
+
+    private void DestoryBall()
+    {
+        Destroy(skill.gameObject);
+        isSkill = false;
+    }
+
     public void end_game()
     {
         Destroy(this.gameObject, 2.5f);
     }
+    
 }

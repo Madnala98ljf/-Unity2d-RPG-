@@ -15,4 +15,12 @@ public static class Variable
     
     //游戏音量
     public static float GameAsound = 1.0f;
+    
+    //冰球
+    public static bool IsIceSkilling = false;
+    public static bool IsIceSkillTrigger = false;
+    
+    //火球
+    public static bool IsFireSkilling = false;
+    public static bool IsFireSkillTrigger = false;
 }

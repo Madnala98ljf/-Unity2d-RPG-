@@ -3,7 +3,11 @@ guid: eebb4414e0ce3ab45b143882126a9304
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - hptext: {instanceID: 0}
+  - hpimage: {instanceID: 0}
+  - IceBall: {fileID: 9025313496828650218, guid: 9addd6e6ae4ed404394082fba623a1f2,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
