@@ -29,6 +29,8 @@ public class PlayerController : MonoBehaviour
     public float hp_max;
     public string s;
     public bool IsDefense = false;
+    private float HorizontalDirection;
+    private float VerticalDirection;
 
     // Start is called before the first frame update
     void Start()
@@ -83,77 +85,101 @@ public class PlayerController : MonoBehaviour
                         Vector3 dir = this.transform.position - emeny.position;
                         myAnimator.SetBool("isBlock", false);
 
-                        if (InputKey.TriggerUp || InputKey.TriggerLeft || InputKey.TriggerRight || InputKey.TriggerDown)
-                        {
-                            if (speed == 4)
-                            {
-                                myAnimator.SetBool("isRun", true);
-                            }
-                            else
-                            {
-                                myAnimator.SetBool("isWalk", true);
-                            }
-
-                            isWalk = true;
-
-                            if (InputKey.HorizontalDirection == 1 && transform.rotation.y == -1)
-                            {
-                                transform.localEulerAngles = new Vector3(0.0f, 0.0f, 0.0f);
-                            }
-                            else if(InputKey.HorizontalDirection == -1 && transform.rotation.y == 0)
-                            {
-                                transform.localEulerAngles = new Vector3(0.0f, 180.0f, 0.0f);
-                            }
-                        }
-                        else
-                        {
-                            myAnimator.SetBool("isRun", false);
-                            myAnimator.SetBool("isWalk", false);
-                            isWalk = false;
+                        AnimatorStateInfo stateinfo = myAnimator.GetCurrentAnimatorStateInfo(0);
+                        if ((stateinfo.normalizedTime >= 0.8f))//normalizedTime：0-1在播放、0开始、1结束
+                        {  
+                            //完成后的逻辑
+                            if(IsAttack)
+                                IsAttack = false;
                         }
 
-
-                        if (Input.GetMouseButtonUp(0))
+                        if (InputKey.TriggerSkill)
                         {
-                            //myAnimator.SetBool ("isAttack", false);
-                            IsAttack = false;
-                        }
+                            if(InputKey.IsPressingSkill)
+                                return;
+                            
+                            if(IsAttack)
+                                return;
 
-                        if (Input.GetMouseButtonDown(0) && isWalk == false)
-                        {
+                            InputKey.IsPressingSkill = true;
                             myAnimator.SetTrigger("Attack");
-                            //myAnimator.SetBool ("isAttack", true);
                             IsAttack = true;
                             if (dir.x < 2.0f && dir.x > -2.0f && dir.y < 0.3f && dir.y > -0.3f)
                             {
-                                //gameController.hp-=100;
                                 if (dir.x < 0)
                                 {
+                                    UnityEngine.Debug.Log(3);
                                     if (transform.rotation.y == 0)
                                     {
+                                        UnityEngine.Debug.Log(1);
                                         gameController.hp -= Aggressivity;
                                     }
                                 }
                                 else
                                 {
+                                    UnityEngine.Debug.Log(4);
                                     if (transform.rotation.y == -1)
                                     {
+                                        UnityEngine.Debug.Log(2);
                                         gameController.hp -= Aggressivity;
                                     }
                                 }
                             }
-
                             return;
+                        }
+                        else
+                        {
+                            InputKey.IsPressingSkill = false;
                         }
 
                         if (!IsAttack)
                         {
-                            float h = Input.GetAxis("Horizontal");
-                            float v = Input.GetAxis("Vertical");
+                            if (InputKey.TriggerUp || InputKey.TriggerLeft || InputKey.TriggerRight ||
+                                InputKey.TriggerDown)
+                            {
+                                if (speed == 4)
+                                {
+                                    myAnimator.SetBool("isRun", true);
+                                }
+                                else
+                                {
+                                    myAnimator.SetBool("isWalk", true);
+                                }
 
-                            Vector3 move = new Vector3(h, v, 0.0f);
-                            //rb.velocity = move * speed;
-                            rb.MovePosition(move);
+                                isWalk = true;
+
+                                if (InputKey.HorizontalDirection == 1)
+                                {
+                                    HorizontalDirection = Const.MoveSpeed * speed;
+                                    if (transform.rotation.y == -1)
+                                        transform.localEulerAngles = new Vector3(0.0f, 0.0f, 0.0f);
+                                }
+                                else if (InputKey.HorizontalDirection == -1)
+                                {
+                                    HorizontalDirection = -Const.MoveSpeed * speed;
+                                    if (transform.rotation.y == 0)
+                                        transform.localEulerAngles = new Vector3(0.0f, 180.0f, 0.0f);
+                                }
+                                else
+                                    HorizontalDirection = 0.0f;
+
+                                if (InputKey.VerticalDirection == 1)
+                                    VerticalDirection = Const.MoveSpeed * speed;
+                                else if (InputKey.VerticalDirection == -1)
+                                    VerticalDirection = -Const.MoveSpeed * speed;
+                                else
+                                    VerticalDirection = 0.0f;
+                                Vector3 move = new Vector3(HorizontalDirection, VerticalDirection, 0.0f);
+                                //rb.velocity = move * speed;
+                                //rb.MovePosition(move);
+                                transform.position += move;
+                            }
+                            else
+                            {
+                                myAnimator.SetBool("isRun", false);
+                                myAnimator.SetBool("isWalk", false);
+                                isWalk = false;
+                            }
                         }
 
                         rb.position = new Vector3(

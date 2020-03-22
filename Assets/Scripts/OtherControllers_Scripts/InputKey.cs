@@ -34,4 +34,24 @@ public class InputKey
             return 0;
         }
     }
+    public static int VerticalDirection
+    {
+        get
+        {
+            if (TriggerUp && TriggerDown)
+            {
+                return 0;
+            }
+            else if (TriggerDown && !TriggerUp)
+            {
+                return -1;
+            }
+            else if (TriggerUp && !TriggerDown)
+            {
+                return 1;
+            }
+
+            return 0;
+        }
+    }
 }

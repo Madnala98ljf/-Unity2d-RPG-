@@ -213,7 +213,10 @@
     <Compile Include="Assets\Scripts\MainScene_Scripts\BackMain.cs" />
     <Compile Include="Assets\Scripts\MainScene_Scripts\NumController.cs" />
     <Compile Include="Assets\Scripts\MainScene_Scripts\RoleIntroduction.cs" />
+    <Compile Include="Assets\Scripts\OtherControllers_Scripts\Const.cs" />
     <Compile Include="Assets\Scripts\OtherControllers_Scripts\CursorController.cs" />
+    <Compile Include="Assets\Scripts\OtherControllers_Scripts\InputKey.cs" />
+    <Compile Include="Assets\Scripts\OtherControllers_Scripts\InputSystem.cs" />
     <Compile Include="Assets\Scripts\OtherControllers_Scripts\PlayerPrefsConst.cs" />
     <Compile Include="Assets\Scripts\OtherControllers_Scripts\TestScroll.cs" />
     <Compile Include="Assets\Scripts\OtherControllers_Scripts\Variable.cs" />

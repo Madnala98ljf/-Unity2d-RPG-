@@ -328,7 +328,10 @@
             <e p="RoleIntroduction.cs" t="Include" />
           </e>
           <e p="OtherControllers_Scripts" t="Include">
+            <e p="Const.cs" t="Include" />
             <e p="CursorController.cs" t="Include" />
+            <e p="InputKey.cs" t="Include" />
+            <e p="InputSystem.cs" t="Include" />
             <e p="PlayerPrefsConst.cs" t="Include" />
             <e p="TestScroll.cs" t="Include" />
             <e p="Variable.cs" t="Include" />
