@@ -56,8 +56,14 @@ public class EmenyController : MonoBehaviour {
                     } else {
                         emenyAnimator.SetBool ("isAttack", true);
                         if (gameController.IsDefense == false)
+                        {
+                            Debug.Log(2);
                             count -= Aggressivity;
-                        if (count == 0) {
+                        }
+
+                        
+                        if (count <= 0) {
+                            Debug.Log(1);
                             gameController.hp -= count_del;
                             count = count_del;
                         }

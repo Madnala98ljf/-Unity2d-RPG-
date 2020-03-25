@@ -34,7 +34,6 @@ public class IceSkillController : MonoBehaviour
                 if (Variable.IsIceSkillTrigger)
                 {
                     Variable.IsIceSkillTrigger = false;
-                    Debug.Log(11);
                     audio.Play ();
                     CD_Trigger = true; // 赋值为True，下一个frame，开始冷却计时
                     Use_Trigger = true;
