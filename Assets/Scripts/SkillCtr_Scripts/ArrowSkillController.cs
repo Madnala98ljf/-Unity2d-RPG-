@@ -12,9 +12,8 @@ public class ArrowSkillController : MonoBehaviour
     public bool Use_Trigger;
     public Image m_Masks;
     public Text m_Texts;
-
     public string s;
-    //public AudioSource audio;
+    public AudioSource audio;
 
     void Awake()
     {
@@ -36,7 +35,7 @@ public class ArrowSkillController : MonoBehaviour
                 if (Variable.IsArrowSkillTrigger)
                 {
                     Variable.IsArrowSkillTrigger = false;
-                    //audio.Play ();
+                    audio.Play ();
                     CD_Trigger = true; // 赋值为True，下一个frame，开始冷却计时
                     Use_Trigger = true;
                     m_Masks.enabled = true; // 启用Mask（Image）

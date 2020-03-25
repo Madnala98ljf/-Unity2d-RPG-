@@ -11,7 +11,7 @@ public class FireSkillController : MonoBehaviour
     public bool CD_Trigger;
     public Image m_Masks;
     public Text m_Texts;
-    //public AudioSource audio;
+    public AudioSource audio;
 
     void Awake()
     {
@@ -32,7 +32,7 @@ public class FireSkillController : MonoBehaviour
                 if (Variable.IsFireSkillTrigger)
                 {
                     Variable.IsFireSkillTrigger = false;
-                    //audio.Play ();
+                    audio.Play ();
                     CD_Trigger = true; // 赋值为True，下一个frame，开始冷却计时
                     m_Masks.enabled = true; // 启用Mask（Image）
                     m_Masks.fillAmount = 1; // FillAmount设为1，确保效果显示正确

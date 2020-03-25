@@ -12,7 +12,7 @@ public class IceSkillController : MonoBehaviour
     public bool Use_Trigger;
     public Image m_Masks;
     public Text m_Texts;
-    //public AudioSource audio;
+    public AudioSource audio;
 
     void Awake()
     {
@@ -34,7 +34,8 @@ public class IceSkillController : MonoBehaviour
                 if (Variable.IsIceSkillTrigger)
                 {
                     Variable.IsIceSkillTrigger = false;
-                    //audio.Play ();
+                    Debug.Log(11);
+                    audio.Play ();
                     CD_Trigger = true; // 赋值为True，下一个frame，开始冷却计时
                     Use_Trigger = true;
                     m_Masks.enabled = true; // 启用Mask（Image）
